@@ -28,7 +28,7 @@ const loadHandler = () => {
         hour.innerHTML = h;
         minutes.innerHTML = m;
         seconds.innerHTML = s;
-        ampm.innerHTML = h < 12 ? 'AM' : 'PM'
+        ampm.innerHTML = h <= 12 ? 'AM' : 'PM'
         
     })
 
